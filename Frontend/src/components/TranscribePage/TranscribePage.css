@@ -1,0 +1,169 @@
+.transcribe-container {
+	background-color: gray;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.transcribe-container-transcriber {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10%;
+	padding-inline: 20px;
+	width: 50%;
+	height: 100%;
+}
+
+.transcribe-container-transcriber h1 {
+	color: white;
+	font-size: 3.5rem;
+}
+
+.transcribe-container-transcriptions {
+	width: 50%;
+	height: 100%;
+}
+
+.transcribe-container-transcriptions h1 {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 1;
+	margin-top: 10%;
+}
+
+.transcribe-container-transcriber-selector {
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.transcribe-container-transcriber-selector select {
+	width: 160px;
+	height: 35px;
+	padding-left: 2px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: var(--primary-color);
+	font-weight: 200;
+	border: 0.5px solid white;
+}
+
+.transcribe-container-transcriber-selector-tooltip {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+	color: white;
+	font-size: large;
+}
+
+.transcribe-container-transcriber-selector-tooltip .transcribe-container-transcriber-selector-tooltip-text {
+	font-size: medium;
+	visibility: hidden;
+	width: 500px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -250px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.transcribe-container-transcriber-selector-tooltip .transcribe-container-transcriber-selector-tooltip-text a {
+	color: #fff;
+}
+
+.transcribe-container-transcriber-selector-tooltip .transcribe-container-transcriber-selector-tooltip-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.transcribe-container-transcriber-selector-tooltip:hover .transcribe-container-transcriber-selector-tooltip-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.transcribe-container-transcriber-selector-tooltip:hover {
+	cursor: pointer;
+}
+
+.transcribe-container-convert-button {
+	width: 150px;
+	height: 35px;
+	background-color: #1c404e;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-weight: 200;
+	border: 0.5px solid white;
+	margin-top: 10%;
+}
+
+.transcribe-container-convert-button:hover {
+	background-color: "white",
+}
+
+.transcribe-tutorial-container {
+	width: 150px;
+	height: 35px;
+	background-color: #2d2d2d;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-weight: 200;
+	border: 0.5px solid white;
+	margin-top: 40px;
+}
+
+.transcribe-tutorial-container p {
+	margin: auto;
+}
+
+.transcribe-tutorial-container div {
+	height: 0.7rem;
+	width: 0.7rem;
+}
+
+.transcriptionResults-switchButton {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	width: 160px;
+	height: 40px;
+	background-color: rgb(128, 255, 255);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: 200;
+	margin-inline: 40px;
+	text-decoration: none;
+	color: black;
+}

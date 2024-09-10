@@ -1,0 +1,125 @@
+.transcriptionResults-bg {
+    display: flex;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.transcriptionResults-title {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.transcriptionResults-buttonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.transcriptionResults-preview {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.transcriptionResults-switchButton {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(128, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-inline: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.transcriptionResults-switchButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.transcriptionResults-convertButton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-inline: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.transcriptionResults-playAlongButton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 160px;
+    height: 40px;
+    background-color: #ccab79;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-inline: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.transcriptionResults-previewSheetButton {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 160px;
+    height: 40px;
+    background-color: #07ecce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-inline: 40px;
+    text-decoration: none;
+    color: black;
+}

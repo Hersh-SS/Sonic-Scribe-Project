@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    "Noto Sans",
+    "Liberation Sans",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+:root {
+  --primary-color: #2d2d2d;
+  --primary-color-2: #464646;
+  --secondary-color: #cbb593;
+  --secondary-color-2: #c4a378;
+  --accent-color: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
+}

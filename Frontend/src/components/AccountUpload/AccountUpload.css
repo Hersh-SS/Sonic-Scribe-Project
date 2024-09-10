@@ -1,0 +1,12 @@
+/* AccountUpload.css */
+.account-upload-page {
+    position: relative;
+    /* Other styles for your page layout */
+}
+
+.upload-btn {
+    position: absolute;
+    top: 20px; /* Adjust to match your layout */
+    right: 20px; /* Adjust to match your layout */
+    /* Additional styles for your button */
+}

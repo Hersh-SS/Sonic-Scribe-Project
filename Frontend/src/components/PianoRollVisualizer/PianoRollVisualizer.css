@@ -1,0 +1,40 @@
+.pianoRollVisualizer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+    height: fit-content;
+    position: relative;
+}
+
+.pianoRollVisualizer-button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pianoRollVisualizer-canvas {
+    width: 90%;
+    overflow-x: auto;
+    height: fit-content;
+    background-color: rgb(20,20,20);
+    border: solid 0.5px;
+    border-color: white;
+    padding: 5px;
+}
+
+.pianoRollVisualizer-container:hover .pianoRollVisualizer-button {
+    opacity: 1;
+}

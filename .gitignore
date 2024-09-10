@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+public
+.DS_Store
+.env.development
+.env.production
+.env
+__pycache__
+Backend/uploads/*
+certs
